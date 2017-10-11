@@ -57,12 +57,12 @@ exclude: [vendor]
 safe: false
 lsi: false
 username: silviurosu
-repo: jasper
+repo: silviurosu.github.io
 branch: master
-relative_source: ../jasper/
-destination: ../jasper-pages/
+relative_source: _site
+destination: _site
 production_url:  http://www.ubazu.com/
-source_url:      https://github.com/silviurosu/blog.git
+source_url:      https://github.com/silviurosu/silviurosu.github.io.git
 
 exclude:
   - README.md
