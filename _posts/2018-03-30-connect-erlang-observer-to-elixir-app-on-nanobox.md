@@ -61,6 +61,7 @@ nanobox console production web.main
 - *web.main* can be different if the server is scaled horizontally. Please check Nanobox dashboard.
 - *production* is the alias I gave in nanobox for the server. Put whatever is you alias in here
 
+
 2. Run node-attach to connect to running instance
 
 Inside nanobox console run:
