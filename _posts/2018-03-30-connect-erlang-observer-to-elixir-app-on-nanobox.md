@@ -11,14 +11,7 @@ navigation: True
 comments: true
 ---
 
-We recently moved our Elixir based applications to [nanobox](https://nanobox.io/) from heroku. Heroku is built mostly for Ruby on Rails, but for Elixir we found many drawbacks like:
-
-- heroku does daily restarts of the server and we lose all the state
-- we do not have any port open on heroku and we can not connect remote observer
-- no clusted of nodes can be built on heroku
-- multiple cores dyno are very expensive on heroku and we need it for Elixir concurency
-
-Having an application based on GenServers that maintain state in memory we want to be able to connect Erlang Observer to production app and be able to see processes tree and debug memory leaks. After a lot of investigation I found a working solution that I will describe below.
+Having an application based on GenServers that maintain state in memory I wanted to be able to connect Erlang Observer to production app to see process tree and debug memory leaks. After a lot of investigation I found a working solution that I will describe below.
 
 First I will start with a fist time config that needs to be done when a new EC2 instance is created, either the app is scalled either a new nanobox app is created.
 
