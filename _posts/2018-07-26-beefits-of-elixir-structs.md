@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/nanobox.jpg'
+cover: 'assets/images/cover4.jpg'
 title: Benefits of using structs in Elixir
 description: How to use structs to have compile time checking.
 date: 2018-07-26 10:00:00
