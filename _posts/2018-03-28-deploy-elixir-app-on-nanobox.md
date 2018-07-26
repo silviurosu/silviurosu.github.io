@@ -17,6 +17,7 @@ We recently moved our Elixir based applications to [nanobox](https://nanobox.io/
 - we do not have any port open on heroku and we can not connect remote observer
 - no cluster of nodes can be built on heroku
 - multiple cores dyno are very expensive on heroku and we need it for Elixir concurency
+- no http2 or websockets support
 
 With nanobox we have:
 
