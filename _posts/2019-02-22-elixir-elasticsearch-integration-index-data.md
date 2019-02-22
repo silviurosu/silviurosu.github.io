@@ -13,7 +13,7 @@ comments: true
 
 On a recent project I had hard time making Elixir integrate well with Elasticsearch. I decided to write this guide to ease the process for others.
 
-First we need to have working elasticsearch cluster. I have used [Qbox](https://qbox.io/) for this and I am happy how it works. It's just a matter of clicks to setup a working ES cluster on your chosen server provider.
+First we need to have a working elasticsearch cluster. I have used [Qbox](https://qbox.io/) for this and I am happy how it works. It's just a matter of clicks to setup a working ES cluster on your chosen server provider.
 
 For the Elixir integration I have used this mix dependency [elasticsearch-elixir](https://github.com/danielberkompas/elasticsearch-elixir). It has no DSL and it's closer to raw communication. There is no more that a few http endpoints to call anyway.
 
