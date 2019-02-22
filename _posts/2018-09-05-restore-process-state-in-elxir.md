@@ -4,9 +4,9 @@ cover: 'assets/images/phoenix.jpg'
 title: Strategies to restore GenServer state in Elixir
 description: How to restore GenServer state on process restoration.
 date: 2018-09-05 10:00:00
-tags: Elixir, OTP, GenServer
+tags: Elixir OTP
 subclass: 'post tag-test tag-content'
-categories: 'Elixir'
+categories: Elixir
 navigation: True
 comments: true
 ---

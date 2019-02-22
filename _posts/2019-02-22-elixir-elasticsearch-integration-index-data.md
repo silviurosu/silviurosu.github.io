@@ -4,9 +4,9 @@ cover: 'assets/images/elasticsearch-cover.png'
 title: Integrate Elixir with Elastisearch - Part 1 - Indexing
 description: How to integrate Elixir with Elasticsearch Cluster. How to configure, map the schema and index documents.
 date: 2019-02-22 10:00:00
-tags: Elixir, OTP, Elasticsearch
+tags: Elixir OTP Elasticsearch
 subclass: 'post tag-test tag-content'
-categories: 'Elixir', "Elasticsearch"
+categories: Elixir Elasticsearch
 navigation: True
 comments: true
 ---
