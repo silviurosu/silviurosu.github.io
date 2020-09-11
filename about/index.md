@@ -2,7 +2,7 @@
 layout: page
 title: About me | Silviu Rosu
 class: 'post'
-navigation: True
+navigation: true
 logo: 'assets/images/ghost.png'
 current: about
 ---
