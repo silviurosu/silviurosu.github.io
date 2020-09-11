@@ -251,6 +251,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 192)
   jekyll (~> 3.7.4)
+  kramdown
   nokogiri (>= 1.10.8)
   rake (>= 12.3.3)
 

@@ -1,10 +1,8 @@
 # Jekyll configuration
-#markdown: redcarpet
-#highlighter: pygments
+language: 'en-us'
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-language: 'en-us'
 
 # Website info
 name: 'Silviu Rosu'
@@ -23,9 +21,9 @@ short_url: 'www.ubazu.com'
 google_analytics: UA-3062240-2
 disqus: silviurosu
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-          Logger.info(fn -> "Starting Broadway pipeline with options: #{inspect(opts)}" end)
 baseurl: "http://www.ubazu.com/"
-# baseurl: "/"
+# put this in dev
+# baseurl: "http://www.ubazu.com/"
 
 # Permalinks
 permalink: /:title
