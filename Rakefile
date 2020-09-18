@@ -15,7 +15,7 @@ CONFIG = YAML.safe_load(File.read('_config.yml'))
 USERNAME = CONFIG['username']
 REPO = CONFIG['repo']
 SOURCE_BRANCH = CONFIG['branch']
-DESTINATION_BRANCH = 'gh-pages'
+DESTINATION_BRANCH = 'master'
 
 def check_destination
   unless Dir.exist? CONFIG['destination']
