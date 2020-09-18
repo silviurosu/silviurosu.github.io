@@ -1,7 +1,7 @@
 ---
 layout: post
 cover: 'assets/images/rabbitmq.png'
-title: My way to safely consume RabbitMQ messages from Elixir
+title: Safely consume RabbitMQ messages from Elixir
 description: How to consume RabbitMQ messages without losing any message and not flooding issue tracker in case there is a crash in the code.
 date: 2020-09-11 10:00:00
 tags: Elixir OTP RabbitMQ
