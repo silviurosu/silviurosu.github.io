@@ -1,0 +1,23 @@
+---
+layout: post
+cover: 'assets/images/aley.jpg'
+title: Pros and cons of Elixir with statement
+description: Some of the advantages and downsides of using Elixir with statement
+date: 2020-09-18 10:00:00
+tags: Elixir
+subclass: 'post tag-test tag-content'
+categories: Elixir
+navigation: true
+comments: true
+---
+
+When I found out with statement in Elixir I was amazed of how much it simplifies the code and how readable it becomes. I used it extensively in my code. With time I encountered some downsides that I will try to explain here.
+
+Basically the with statement saves you of having nested if statements that can become a nightmare if there are more than 2. Business logic that does not fulfill the first statement should not be continued further. One example where it is handy:
+
+```elixir
+with {:ok, order} <- load_order_from_database()6,
+     {:ok, true} <- validate_delivery_address(order),
+     {:ok, true} <- validate_delivery_address(order),
+```
+
