@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/nanobox.jpg'
+cover: 'assets/images/software.jpg'
 title: How a good software engineer should approach writing code
 description: Steps that a good software engineer should take when writing code.
 date: 2020-12-16 10:00:00
