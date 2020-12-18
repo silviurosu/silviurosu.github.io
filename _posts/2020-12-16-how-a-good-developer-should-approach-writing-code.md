@@ -40,8 +40,8 @@ These are the steps I force myself to take:
 7. How fast my code runs?
     This is not mandatory but nice to have. See if you can measure the speed of the code. How does it behave on high load. Can I have a benchmark on top
 
-8.  How can I watch the code in production?
-    Can I collect some metrics in production to see how it behaves and to be warned when something is not right? Integrate it with your current metrics system (prometheus, grafana, datadog or whatever you have).
+8.  How can I monitor the code in production?
+    Can I collect some metrics in production to see how it behaves and to have alerts when something is not right? Integrate it with your current metrics system (prometheus, grafana, datadog or whatever you have).
 
 
 
