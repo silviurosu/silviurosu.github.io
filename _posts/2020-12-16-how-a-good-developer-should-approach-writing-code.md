@@ -46,4 +46,4 @@ These are the steps I force myself to take:
 
 
     Only now the code can be sent to manual testing team, automate testing of whatever you have in place in the company and then released into the wild.
-    Following these steps will help you keep you mental sanity, be proud of your work, sleep well at night and be responsible for your company and the ones who pay you.
+    Following these steps will help you keep your mental sanity, be proud of your work, sleep well at night and be responsible for your company and the ones who pay you.
